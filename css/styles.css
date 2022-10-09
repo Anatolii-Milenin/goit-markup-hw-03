@@ -83,6 +83,10 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /*----------цвет логотипа в хедере и футере----------*/
 .logo {
@@ -199,14 +203,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 /*----------feature----------*/
 .feature {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 176px;
+
   gap: 30px;
 }
 
@@ -229,7 +232,6 @@ img {
 .work {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 /*----------team----------*/
@@ -290,7 +292,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   margin-top: 20px;
-  /* margin-bottom: 9px; */
 }
 .address .address-link:hover,
 .address .address-link:focus {
