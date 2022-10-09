@@ -209,7 +209,6 @@ img {
 /*----------feature----------*/
 .feature {
   display: flex;
-
   gap: 30px;
 }
 
@@ -228,6 +227,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 /*----------work----------*/
 .work {
   display: flex;
@@ -315,6 +315,7 @@ img {
   gap: 52px;
   margin-top: 100px;
   margin-bottom: 56px;
+  margin-left: 297px;
 }
 
 /*----------project----------*/
