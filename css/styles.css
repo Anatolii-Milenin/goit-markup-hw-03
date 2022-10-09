@@ -313,9 +313,8 @@ img {
 .filter {
   display: flex;
   gap: 52px;
-  margin-top: 100px;
-  margin-bottom: 56px;
-  margin-left: 297px;
+  padding-bottom: 50px;
+  padding-left: 297px;
 }
 
 /*----------project----------*/
@@ -324,7 +323,6 @@ img {
   flex-wrap: wrap;
   min-width: 1170;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 .project-cart {
