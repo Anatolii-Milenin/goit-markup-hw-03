@@ -107,7 +107,7 @@ img {
   color: var(--primary-white-color);
 }
 
-/*----------site nav, auth nav----------*/
+/*----------Site nav, auth nav----------*/
 .header-container {
   display: flex;
   align-items: center;
@@ -164,7 +164,7 @@ img {
   color: var(--accent-color);
 }
 
-/*----------hero----------*/
+/*----------Hero----------*/
 .hero {
   background-color: var(--hero-footer-bg-color);
   padding-top: 200px;
@@ -207,7 +207,7 @@ img {
   background-color: var(--active-bg-color);
 }
 
-/*----------sections----------*/
+/*----------Sections-title----------*/
 .section-title {
   font-size: 36px;
   font-weight: 700;
@@ -218,7 +218,7 @@ img {
   padding-bottom: 50px;
 }
 
-/*----------feature----------*/
+/*----------Feature----------*/
 .feature {
   display: flex;
   gap: 30px;
@@ -241,13 +241,13 @@ img {
   color: var(--primary-text-color);
 }
 
-/*----------work----------*/
+/*----------Work----------*/
 .work {
   display: flex;
   gap: 30px;
 }
 
-/*----------team----------*/
+/*----------Team----------*/
 .section-team {
   background-color: var(--second-bg-color);
 }
@@ -294,7 +294,7 @@ img {
   margin-bottom: 30px;
 }
 
-/*----------footer----------*/
+/*----------Footer----------*/
 .footer {
   background-color: var(--hero-footer-bg-color);
   padding-top: 60px;
@@ -385,22 +385,20 @@ img {
 }
 
 .project-title {
+  text-align: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  padding-top: 20px;
-  padding-left: 24px;
+  padding-top: 30px;
 }
 
 .project-text {
-  display: inline-block;
+  text-align: center;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-top: 4px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding-bottom: 30px;
 }
