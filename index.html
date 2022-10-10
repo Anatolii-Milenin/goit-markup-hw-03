@@ -19,11 +19,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body class="site-body">
+  <body>
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo line"> Web<span class="header-word">Studio</span></a>
+          <a href="./index.html" class="logo logo-header line">
+            Web<span class="header-word">Studio</span></a
+          >
           <ul class="site-nav list">
             <li><a href="./index.html" class="link current line">Студія</a></li>
             <li><a href="./portfolio.html" class="link line">Портфоліо</a></li>
@@ -37,13 +39,13 @@
       </div>
     </header>
     <main>
-      <section class="section hero">
-        <div class="container hero-container">
+      <section class="section-hero hero">
+        <div class="container container-hero">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="button-hero" type="button">Замовити послугу</button>
         </div>
       </section>
-      <section class="section section-feature">
+      <section class="section-feature">
         <div class="container">
           <h2 class="section-title visually-hidden">Наші переваги</h2>
           <ul class="feature list">
@@ -74,59 +76,49 @@
           </ul>
         </div>
       </section>
-      <section class="section section-work">
+      <section class="section-work">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work list">
             <li>
-              <img
-                class="work-img"
-                src="./imges/img-1.jpg"
-                alt="Людина печатає на клавіатурі"
-                width="370"
-              />
+              <img src="./imges/img-1.jpg" alt="Людина печатає на клавіатурі" width="370" />
             </li>
             <li>
-              <img class="work-img" src="./imges/img-2.jpg" alt="Людина з телефоном" width="370" />
+              <img src="./imges/img-2.jpg" alt="Людина з телефоном" width="370" />
             </li>
             <li>
-              <img
-                class="work-img"
-                src="./imges/img-3.jpg"
-                alt="Людина працює з палитрою кольорів"
-                width="370"
-              />
+              <img src="./imges/img-3.jpg" alt="Людина працює з палитрою кольорів" width="370" />
             </li>
           </ul>
         </div>
       </section>
-      <section class="section section-team">
+      <section class="section-team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team">
-              <img class="team-img" src="./imges/img-4.jpg" alt="Фото людини" width="270" />
+              <img src="./imges/img-4.jpg" alt="Фото людини" width="270" />
               <div class="team-name">
                 <h3 class="team-title">Ігор Дем'яненко</h3>
                 <p class="team-text" lang="en">Product Designe</p>
               </div>
             </li>
             <li class="team">
-              <img class="team-img" src="./imges/img-5.jpg" alt="Фото людини" width="270" />
+              <img src="./imges/img-5.jpg" alt="Фото людини" width="270" />
               <div class="team-name">
                 <h3 class="team-title">Ольга Рєпіна</h3>
                 <p class="team-text" lang="en">Frontend Developer</p>
               </div>
             </li>
             <li class="team">
-              <img class="team-img" src="./imges/img-6.jpg" alt="Фото людини" width="270" />
+              <img src="./imges/img-6.jpg" alt="Фото людини" width="270" />
               <div class="team-name">
                 <h3 class="team-title">Микола Тарасов</h3>
                 <p class="team-text" lang="en">Marketing</p>
               </div>
             </li>
             <li class="team">
-              <img class="team-img" src="./imges/img-7.jpg" alt="Фото людини" width="270" />
+              <img src="./imges/img-7.jpg" alt="Фото людини" width="270" />
               <div class="team-name">
                 <h3 class="team-title">Михайло Єрмаков</h3>
                 <p class="team-text" lang="en">UI Designer</p>
@@ -139,8 +131,8 @@
     <footer class="footer">
       <div class="container">
         <a class="logo line" href="./index.html">Web<span class="footer-word">Studio</span></a>
-        <address>
-          <ul class="address list">
+        <address class="address">
+          <ul class="list">
             <li>
               <a
                 class="address-link line"
@@ -152,9 +144,13 @@
               </a>
             </li>
             <li>
-              <a class="auth-link line" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="auth-link auth-mail line" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-            <li><a class="auth-link line" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li>
+              <a class="auth-link auth-tel line" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
