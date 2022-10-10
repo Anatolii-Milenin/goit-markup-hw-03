@@ -245,6 +245,7 @@ img {
 .work {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 /*----------Team----------*/
